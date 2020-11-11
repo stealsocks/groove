@@ -1,0 +1,117 @@
+
+#test {
+  color: gray;
+}
+
+#hold {height:50px;
+width: 90%;
+margin-left:10%}
+
+#nums{
+  margin: auto;
+  width: 65%;
+  border: 3px inset black;
+  padding: 10px;
+background:black;
+border-radius:25px
+}
+
+.button {padding:5px 20px;
+border:1px hidden;
+color:white;
+background-color:#572c04}
+
+.button * {font-size:120%}
+
+.holder {min-width:6.6%;
+height:30px;
+float: left;
+text-align: center;
+padding-top:10px;
+margin-top: 15px;
+margin-left: 1px;
+border: 2px solid black;
+}
+
+.holder2 {min-width:4.9%;
+height:30px;
+float: left;
+text-align: center;
+padding-top:10px;
+margin-top: 15px;
+margin-left: 1px;
+border: 2px solid black;
+}
+
+
+.holder * {padding:35%}
+
+.holder2 * {padding:40%}
+
+h1 {font-family: monaco,Consolas,Lucida Console,monospace;
+color:white;
+background-color:#572c04
+}
+
+body {background:#fcdaa7;
+font-family: monaco,Consolas,Lucida Console,monospace;
+color:black;
+margin-left:0%;
+width:110%;
+margin-top:0%}
+
+#metronome {
+height:20%;
+width:69%;
+display: none;
+margin-left:auto;
+margin-right:auto;
+margin-top:0%;
+border: 1px solid black;
+background-color:black;
+color:white;
+overflow:hidden}
+
+.header {border: 3px solid black;
+background-color:#572c04;
+color:white}
+
+#startBtn, #stopBtn{padding:10px 30px;
+border:1px hidden;
+border-radius:25px;
+color:white;
+background-color:#572c04}
+
+.collapsible {
+  background-color:#572c04;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 70%;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 15px;
+  margin-bottom:0px;
+  font-family: monaco,Consolas,Lucida Console,monospace;
+}
+
+.active, .collapsible:hover {
+  background-color:#572c04;
+}
+
+
+
+#metro {margin:0px}
+
+.collapsible:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 20px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+  font-weight: 800
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
